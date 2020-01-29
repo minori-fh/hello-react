@@ -21,7 +21,7 @@ class App extends Component {
 
   ONRouting = () => {
     return(
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <div>
             <Switch>
