@@ -15,10 +15,10 @@ class Routes extends Component {
         return(
             <Switch>
                 <Route exact path="/" component={Home}/>
-                <Route exact path="/links" component={Links}/>
+                {/* <Route exact path="/links" component={Links}/>
                 <Route exact path="/MI" component={MI}/>
                 <Route exact path="/CTA" component={CTAs}/>
-                <Route exact path="*" component={NoMatch}/> {/*I like to have a * catch-all in case someone puts in a random path*/}
+                <Route exact path="*" component={NoMatch}/> I like to have a * catch-all in case someone puts in a random path */}
             </Switch>
         )
     }
