@@ -44,9 +44,11 @@ class App extends Component {
     return(
       <Router>
         <div>
-          <Switch>
-            <Route path="*" component={Routes} />
-          </Switch>
+          <div>
+            <Switch>
+              <Route path="*" component={Routes} />
+            </Switch>
+          </div>
         </div>
       </Router>
     )
