@@ -3,7 +3,7 @@ import React from 'react';
 const HomePage = (props) => {
     <div>
         <div>
-            <h1>Hello</h1>
+            {props.children}
         </div>
     </div>
 }
