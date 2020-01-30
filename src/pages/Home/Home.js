@@ -32,6 +32,8 @@ class Home extends Component {
             links: true
         })
         console.log(this.state.links)
+
+        window.location.href = "/links"
     }
 
     gotoMI(){
