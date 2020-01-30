@@ -33,8 +33,6 @@ class Home extends Component {
             links: true
         })
         console.log(this.state.links)
-
-        window.location = "/links"
     }
 
     gotoMI(){
@@ -72,6 +70,14 @@ class Home extends Component {
                 <CTAButton cta={this.gotoCTA}/>
                 <LinkButton links={this.gotoLinks}/>
                 <MIButton  mi={this.gotoMI}/>
+            </div>
+            <div>
+                {
+                    this.state.edit ? 
+                    <Links/>
+                    :
+                    <h1>nothing to see here</h1>
+                }
             </div>
         )
     };
