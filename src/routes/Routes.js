@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom"; //react-router-dom is a routin
 
 //importing components to be used
 import Home from '../pages/Home/Home';
+import Links from '../pages/Links/Links';
 
 //react is made up of components which can be defined using 1.) functions 2.) classes 
 //1. functional components - simpler, less code, not stateful
@@ -15,8 +16,8 @@ class Routes extends Component {
         return(
             <Switch>
                 <Route exact path="/" component={Home}/>
-                {/* <Route exact path="/links" component={Links}/>
-                <Route exact path="/MI" component={MI}/>
+                <Route exact path="/links" component={Links}/>
+                {/* <Route exact path="/MI" component={MI}/>
                 <Route exact path="/CTA" component={CTAs}/>
                 <Route exact path="*" component={NoMatch}/> I like to have a * catch-all in case someone puts in a random path */}
             </Switch>

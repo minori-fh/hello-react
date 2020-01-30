@@ -6,10 +6,10 @@ class Home extends Component {
     render(){
         return(
             <HomePage>
-                <h1>Hello Deb</h1>
-                <h2>Links</h2>
-                <h2>MI</h2> 
-                <h2>NoMatch</h2>
+                <h1>Welcome to DebTools</h1>
+                <button onClick={() =>  HomePage.push("/links")}>Linking</button>
+                <button>Movable Ink</button>
+                <button>CTA Library</button>
             </HomePage>
         )
     }
