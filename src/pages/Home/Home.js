@@ -13,6 +13,9 @@ class Home extends Component {
             mi: false,
             cta: false,
         }
+        this.gotoCTA = this.gotoCTA.bind(this)
+        this.gotoLinks = this.gotoCTA.bind(this)
+        this.gotoMI = this.gotoCTA.bind(this)
     }
 
     gotoCTA(){
