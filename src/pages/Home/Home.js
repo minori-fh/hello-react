@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import CTAButton from '../../components/CTAButton/CTAButton'
 import LinkButton from '../../components/LinkButton/LinkButton'
 import MIButton from '../../components/MIButton/MIButton'
+import Links from '../../pages/Links/Links'
 
 class Home extends Component {
 
@@ -71,14 +72,14 @@ class Home extends Component {
                 <LinkButton links={this.gotoLinks}/>
                 <MIButton  mi={this.gotoMI}/>
             </div>
-            <div>
+            <HomePage>
                 {
                     this.state.edit ? 
                     <Links/>
                     :
                     <h1>nothing to see here</h1>
                 }
-            </div>
+            </HomePage>
         )
     };
 }
