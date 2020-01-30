@@ -24,6 +24,8 @@ class Home extends Component {
             cta: true
         })
         console.log(this.state.cta)
+
+        this.handleStateChange()
     }
 
     gotoLinks(){
@@ -33,7 +35,7 @@ class Home extends Component {
         })
         console.log(this.state.links)
 
-        window.location.href = "/links"
+        this.handleStateChange()
     }
 
     gotoMI(){
@@ -43,6 +45,13 @@ class Home extends Component {
         })
 
         console.log(this.state.mi)
+
+        this.handleStateChange()
+    }
+
+    handleStateChange(){
+        console.log("handleStateChange has been hit")
+
     }
 
     render() {
