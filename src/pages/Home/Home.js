@@ -20,12 +20,12 @@ class Home extends Component {
     }
 
     render() {
-        <HomePage>
+        return (
             <h1>Welcome to DebTools</h1>
             <CTAButton cta={this.gotoCTA}/>
             <LinkButton links={this.gotoLinks}/>
             <MIButton  mi={this.gotoMI}/>
-        </HomePage>
+        )
     };
 }
 
