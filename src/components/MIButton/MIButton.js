@@ -1,7 +1,7 @@
 import React from 'react';
 
 const MIButton = (props) => (
-    <button>Movable Ink</button>
+    <button onClick={props.mi}>Movable Ink</button>
 );
 
 export default MIButton; 
