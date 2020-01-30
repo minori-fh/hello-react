@@ -4,6 +4,7 @@ import CTAButton from '../../components/CTAButton/CTAButton'
 import LinkButton from '../../components/LinkButton/LinkButton'
 import MIButton from '../../components/MIButton/MIButton'
 import Links from '../../pages/Links/Links'
+import HomePage from '../../components/HomePage/HomePage'
 
 class Home extends Component {
 
