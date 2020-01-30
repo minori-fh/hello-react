@@ -1,22 +1,43 @@
 import React, {Component} from "react";
 
-import HomePage from '../../components/HomePage/HomePage'
 import CTAButton from '../../components/CTAButton/CTAButton'
 import LinkButton from '../../components/LinkButton/LinkButton'
 import MIButton from '../../components/MIButton/MIButton'
 
 class Home extends Component {
 
+    constructor(props){
+        super(props)
+        this.state = {
+            links: false,
+            mi: false,
+            cta: false,
+        }
+    }
+
     gotoCTA(){
         console.log("hit the CTA function")
+        this.setState({
+            cta: true
+        })
+        console.log(this.state.cta)
     }
 
     gotoLinks(){
         console.log("hit the links function")
+        this.setState({
+            links: true
+        })
+        console.log(this.state.links)
     }
 
-    gotoMi(){
+    gotoMI(){
         console.log("hit the mi function")
+        this.setState({
+            mi: true
+        })
+
+        console.log(this.state.mi)
     }
 
     render() {
