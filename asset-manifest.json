@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hello-react/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/hello-react/static/js/main.2e9aa2d4.chunk.js",
-    "main.js.map": "/hello-react/static/js/main.2e9aa2d4.chunk.js.map",
+    "main.js": "/hello-react/static/js/main.70bbdb73.chunk.js",
+    "main.js.map": "/hello-react/static/js/main.70bbdb73.chunk.js.map",
     "runtime-main.js": "/hello-react/static/js/runtime-main.a37268f6.js",
     "runtime-main.js.map": "/hello-react/static/js/runtime-main.a37268f6.js.map",
     "static/js/2.66db9826.chunk.js": "/hello-react/static/js/2.66db9826.chunk.js",
     "static/js/2.66db9826.chunk.js.map": "/hello-react/static/js/2.66db9826.chunk.js.map",
     "index.html": "/hello-react/index.html",
-    "precache-manifest.6cbc393206ecc4ee63a383e9832de172.js": "/hello-react/precache-manifest.6cbc393206ecc4ee63a383e9832de172.js",
+    "precache-manifest.cae90ed7bb6452d3a5480b5507427dde.js": "/hello-react/precache-manifest.cae90ed7bb6452d3a5480b5507427dde.js",
     "service-worker.js": "/hello-react/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/hello-react/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.66db9826.chunk.js.LICENSE": "/hello-react/static/js/2.66db9826.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a37268f6.js",
     "static/js/2.66db9826.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2e9aa2d4.chunk.js"
+    "static/js/main.70bbdb73.chunk.js"
   ]
 }
