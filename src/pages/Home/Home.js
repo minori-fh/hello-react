@@ -4,8 +4,6 @@ import CTAButton from '../../components/CTAButton/CTAButton'
 import LinkButton from '../../components/LinkButton/LinkButton'
 import MIButton from '../../components/MIButton/MIButton'
 
-import Links from '../../pages/Links/Links'
-
 class Home extends Component {
 
     constructor(props){
@@ -26,18 +24,17 @@ class Home extends Component {
             cta: true
         })
         console.log(this.state.cta)
-
-        this.handleStateChange()
     }
 
     gotoLinks(){
         console.log("hit the links function")
+
         this.setState({
             links: true
         })
         console.log(this.state.links)
 
-        this.handleStateChange()
+        window.location = "/links"
     }
 
     gotoMI(){
@@ -47,28 +44,26 @@ class Home extends Component {
         })
 
         console.log(this.state.mi)
-
-        this.handleStateChange()
     }
 
-    handleStateChange(){
-        console.log("handleStateChange has been hit")
+    // handleStateChange(){
+    //     console.log("handleStateChange has been hit")
 
-        if (this.state.links === true){
-            console.log("this person chose links!")
-            return (
-                <Links></Links>
-            )
-        }
-        else if (this.state.cta === true){
-            console.log("this person chose cta!")
+    //     if (this.state.links === true){
+    //         console.log("this person chose links!")
+    //         return (
+    //             <Links></Links>
+    //         )
+    //     }
+    //     else if (this.state.cta === true){
+    //         console.log("this person chose cta!")
 
-        }
-        else if (this.state.mi === true){
-            console.log("this person chose mi!")
+    //     }
+    //     else if (this.state.mi === true){
+    //         console.log("this person chose mi!")
 
-        };
-    }
+    //     };
+    // }
 
     render() {
         return (
