@@ -71,7 +71,6 @@ class Home extends Component {
                 <CTAButton cta={this.gotoCTA}/>
                 <LinkButton links={this.gotoLinks}/>
                 <MIButton  mi={this.gotoMI}/>
-            </div>
             <HomePage>
                 {
                     this.state.edit ? 
@@ -80,6 +79,7 @@ class Home extends Component {
                     <h1>nothing to see here</h1>
                 }
             </HomePage>
+            </div>
         )
     };
 }
