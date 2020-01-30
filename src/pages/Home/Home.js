@@ -4,6 +4,8 @@ import CTAButton from '../../components/CTAButton/CTAButton'
 import LinkButton from '../../components/LinkButton/LinkButton'
 import MIButton from '../../components/MIButton/MIButton'
 
+import Links from '../../pages/Links'
+
 class Home extends Component {
 
     constructor(props){
@@ -52,6 +54,20 @@ class Home extends Component {
     handleStateChange(){
         console.log("handleStateChange has been hit")
 
+        if (this.state.links === true){
+            console.log("this person chose links!")
+            return (
+                <Links></Links>
+            )
+        }
+        else if (this.state.cta === true){
+            console.log("this person chose cta!")
+
+        }
+        else if (this.state.mi === true){
+            console.log("this person chose mi!")
+
+        };
     }
 
     render() {
