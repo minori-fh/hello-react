@@ -55,7 +55,7 @@ class Home extends Component {
                 <MIButton  mi={this.gotoMI}/>
             <HomePage>
                 {
-                    this.state.links ? 
+                    this.state.cta ? 
                     <Links/>
                     :
                     <p>nothing to see here...yet</p>
